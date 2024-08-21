@@ -18,3 +18,11 @@
     "nodemon": "^2.0.3"
   }
 }
+
+{
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha",
+    "build": "webpack --config webpack.config.js"
+  }
+}
